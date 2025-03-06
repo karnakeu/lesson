@@ -1,0 +1,25 @@
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.learn-more-button {
+    transition: opacity 0.3s ease;
+}
+
+.service-card:hover .learn-more-button {
+    opacity: 0.8;
+}
+
+.cta-block {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-block:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+@layer base {
+    @font-face {
+        font-family: "SpaceGrotesk-Medium";
+        src: url("/fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "SpaceGrotesk-Regular";
+        src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+    }
+
+    h1 {
+        @apply text-[60px] font-medium text-black;
+    }
+
+    h2 {
+        @apply text-[40px] font-medium text-black;
+    }
+
+    h3 {
+        @apply text-[30px] font-medium text-black;
+    }
+
+    h4 {
+        @apply text-[20px] font-medium text-black;
+    }
+
+    p {
+        @apply text-[18px] font-regular text-black;
+    }
+}
